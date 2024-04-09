@@ -3,30 +3,34 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[Serializable]
 public class StateMachine
 {
     // Access the current state the charcater or object in question is in.
     // Get publically (from any script) asnd set privately from within the statemachine or event in question.
-    public IState CurrentState { get; private set; }
+    protected IState CurrentState;
 
-    // Notifies other objects of the state change.
-    public event Action<IState> _stateChanged;
-
-    public void InitializeState(IState state)
+    public void InitState(IState initialState)
     {
-        CurrentState = state;
-        state.EnterState();
-
-        // Sends out the notification that the state has changed.
-        _stateChanged?.Invoke(state);
+        if (CurrentState == null)
+        {
+            CurrentState = initialState;
+            initialState?.EnterState();
+        }
     }
 
     public void ChangeState(IState nextState)
     {
-        CurrentState.ExitState();
+        CurrentState?.ExitState();
         CurrentState = nextState;
-        nextState.EnterState();
+        nextState?.EnterState();
+    }
 
-        _stateChanged?.Invoke(nextState);
+    public void Update()
+    {
+        if (CurrentState != null)
+        {
+            CurrentState.UpdateState(Time.deltaTime);
+        }
     }
 }
