@@ -156,7 +156,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Grass_Hill_Tiles_Slopes v.2_0: -7190361784011359863
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

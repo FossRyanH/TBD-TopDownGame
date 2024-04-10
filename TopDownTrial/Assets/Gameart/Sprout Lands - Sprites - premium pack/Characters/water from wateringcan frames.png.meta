@@ -348,7 +348,16 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      water from wateringcan frames_0: -3280076494932604096
+      water from wateringcan frames_1: 1651873264809095252
+      water from wateringcan frames_2: -4556908965380799938
+      water from wateringcan frames_3: -933152078365135269
+      water from wateringcan frames_4: 8935965209386922149
+      water from wateringcan frames_5: 8110346588498905727
+      water from wateringcan frames_6: 2329645380984839722
+      water from wateringcan frames_7: 2846427335469858117
+      water from wateringcan frames_8: 419246138385307597
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -156,7 +156,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Piknik basket_0: -3066094476511584932
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -41,3 +41,15 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Floor
+    uniqueID: 365483385
+    locked: 0
+  - name: Housing
+    uniqueID: 3957218315
+    locked: 0
+  - name: Objects
+    uniqueID: 330740929
+    locked: 0
+  - name: Player
+    uniqueID: 2146046877
+    locked: 0

@@ -324,7 +324,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Stone_Ground_Tiles_0: -2064434205463502523
+      Stone_Ground_Tiles_1: 6064261192530634854
+      Stone_Ground_Tiles_2: 7794365891381020409
+      Stone_Ground_Tiles_3: 7530509434024106394
+      Stone_Ground_Tiles_4: -7844965320593506550
+      Stone_Ground_Tiles_5: 465306174018516857
+      Stone_Ground_Tiles_6: 8621711448309543765
+      Stone_Ground_Tiles_7: 5659083951016669891
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

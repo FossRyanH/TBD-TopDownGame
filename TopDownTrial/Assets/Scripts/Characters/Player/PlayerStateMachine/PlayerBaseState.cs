@@ -6,6 +6,11 @@ public class PlayerBaseState : IState
 {
     protected PlayerController _player;
 
+    #region Animation Variables
+    readonly int _yMovement = Animator.StringToHash("YMovement");
+    readonly int _xMovement = Animator.StringToHash("XMovement");
+    #endregion
+
     public PlayerBaseState(PlayerController player)
     {
         this._player = player;
@@ -26,5 +31,18 @@ public class PlayerBaseState : IState
     protected void Move(float delta)
     {
         Move(Vector3.zero, delta);
+    }
+
+    protected void UpdateAnimations()
+    {
+        // Set player facing direction
+        if (Mathf.Abs(_player.MovementInput.y) > 0.1f)
+        {
+            _player.Animator.SetFloat(_yMovement, _player.MovementInput.y);
+        }
+        else if (Mathf.Abs(_player.MovementInput.x) > 0.1f)
+        {
+            _player.Animator.SetFloat(_xMovement, _player.MovementInput.x);
+        }
     }
 }

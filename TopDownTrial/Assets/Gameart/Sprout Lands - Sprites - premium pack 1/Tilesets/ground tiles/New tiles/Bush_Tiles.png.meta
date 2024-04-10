@@ -348,7 +348,16 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Bush_Tiles_0: 804639330735744712
+      Bush_Tiles_1: 7620554572957989254
+      Bush_Tiles_2: -5139650636243228368
+      Bush_Tiles_3: -4842016984912747096
+      Bush_Tiles_4: -6764101774483621461
+      Bush_Tiles_5: 4587410387301664502
+      Bush_Tiles_6: 8438535251584873579
+      Bush_Tiles_7: -7051000336093786934
+      Bush_Tiles_8: -129269534589660139
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

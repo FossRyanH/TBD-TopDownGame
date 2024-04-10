@@ -324,7 +324,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Grass_Hill_Tiles_v2_0: 6351536298045245921
+      Grass_Hill_Tiles_v2_1: 2597740354613521425
+      Grass_Hill_Tiles_v2_2: -5790703194685518776
+      Grass_Hill_Tiles_v2_3: -3305982077485919886
+      Grass_Hill_Tiles_v2_4: 8829724079141382577
+      Grass_Hill_Tiles_v2_5: 4445670998501617227
+      Grass_Hill_Tiles_v2_6: -8766919379699717805
+      Grass_Hill_Tiles_v2_7: 1117024672020543985
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

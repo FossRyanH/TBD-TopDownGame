@@ -28,7 +28,8 @@ public class PlayerController : MonoBehaviour
     #endregion
 
     #region Player Events
-    // public event Action MoveEvent;
+    // Emit a event to signify that the player should move to the Sprinting State.
+    public event Action SprintEvent;
     #endregion
 
     void Awake()
@@ -56,6 +57,8 @@ public class PlayerController : MonoBehaviour
 
     public void HandleRun()
     {
+        // IsRunning may become obsolete after this. we'll see.
         IsRunning = !IsRunning;
+        SprintEvent?.Invoke();
     }
 }

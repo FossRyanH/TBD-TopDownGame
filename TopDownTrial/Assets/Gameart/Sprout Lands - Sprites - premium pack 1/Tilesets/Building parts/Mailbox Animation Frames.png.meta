@@ -780,7 +780,34 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Mailbox Animation Frames_0: 6198883951026191679
+      Mailbox Animation Frames_1: -5792809807254754000
+      Mailbox Animation Frames_10: -3294544988297659920
+      Mailbox Animation Frames_11: -2130151816073397863
+      Mailbox Animation Frames_12: 2100011078455451257
+      Mailbox Animation Frames_13: 1848245245197783303
+      Mailbox Animation Frames_14: 2013615200249322701
+      Mailbox Animation Frames_15: 4525289423483017513
+      Mailbox Animation Frames_16: -8294779259990273709
+      Mailbox Animation Frames_17: 8058941111892371943
+      Mailbox Animation Frames_18: 1638996014719737568
+      Mailbox Animation Frames_19: 1342117915435163942
+      Mailbox Animation Frames_2: 4230606399189577717
+      Mailbox Animation Frames_20: -1191764926515968683
+      Mailbox Animation Frames_21: -22763176907425430
+      Mailbox Animation Frames_22: -4431585302135390478
+      Mailbox Animation Frames_23: 3281049062985714909
+      Mailbox Animation Frames_24: 1489783586142526883
+      Mailbox Animation Frames_25: 4357904804705120043
+      Mailbox Animation Frames_26: -6472037780847960190
+      Mailbox Animation Frames_3: 6135011211374745695
+      Mailbox Animation Frames_4: -3283527736999844173
+      Mailbox Animation Frames_5: -995562089020409355
+      Mailbox Animation Frames_6: 5609319263272533189
+      Mailbox Animation Frames_7: -1619575895047621880
+      Mailbox Animation Frames_8: 2566522585638032936
+      Mailbox Animation Frames_9: 7055115875230313394
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

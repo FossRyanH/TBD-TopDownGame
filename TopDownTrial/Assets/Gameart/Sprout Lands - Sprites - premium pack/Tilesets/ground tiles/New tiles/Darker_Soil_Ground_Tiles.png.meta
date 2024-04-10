@@ -324,7 +324,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Darker_Soil_Ground_Tiles_0: -7656601307950018570
+      Darker_Soil_Ground_Tiles_1: -2467508579294491858
+      Darker_Soil_Ground_Tiles_2: -2305759826824698848
+      Darker_Soil_Ground_Tiles_3: -294753746977984746
+      Darker_Soil_Ground_Tiles_4: 8482409997851149542
+      Darker_Soil_Ground_Tiles_5: 3561780242273141937
+      Darker_Soil_Ground_Tiles_6: -7920252401444689590
+      Darker_Soil_Ground_Tiles_7: 2464014838581305815
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

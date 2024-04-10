@@ -156,7 +156,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Water well_0: -3225624534407843338
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

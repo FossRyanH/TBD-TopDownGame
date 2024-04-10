@@ -420,7 +420,19 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      tools and meterials_0: -729035001910004694
+      tools and meterials_1: 7856000931257088127
+      tools and meterials_10: -6346914696550080250
+      tools and meterials_11: 2100476603013389886
+      tools and meterials_2: 8784534135033727807
+      tools and meterials_3: -5541560549677230063
+      tools and meterials_4: -7633995725508174579
+      tools and meterials_5: 2865873445623805071
+      tools and meterials_6: 6272356394109922095
+      tools and meterials_7: 290135917507652971
+      tools and meterials_8: 2736918608934559064
+      tools and meterials_9: -1303292761010586549
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

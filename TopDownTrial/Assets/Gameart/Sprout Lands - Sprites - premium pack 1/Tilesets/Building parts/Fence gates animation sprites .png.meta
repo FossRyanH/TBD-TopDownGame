@@ -540,7 +540,24 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Fence gates animation sprites _0: 5290226853113492816
+      Fence gates animation sprites _1: -1819395041842504699
+      Fence gates animation sprites _10: 7928655351209116113
+      Fence gates animation sprites _11: 918989112134975145
+      Fence gates animation sprites _12: -3320128158097764637
+      Fence gates animation sprites _13: -1896664000243221979
+      Fence gates animation sprites _14: -1193688425843552191
+      Fence gates animation sprites _15: -8871367747980998994
+      Fence gates animation sprites _16: -6987644524951729993
+      Fence gates animation sprites _2: 4645211932390752997
+      Fence gates animation sprites _3: -8882675143833133675
+      Fence gates animation sprites _4: -408433506663950549
+      Fence gates animation sprites _5: -4552635912289091637
+      Fence gates animation sprites _6: 7174240260807486979
+      Fence gates animation sprites _7: 9058182395099197873
+      Fence gates animation sprites _8: 2663722575922453193
+      Fence gates animation sprites _9: -3236316546915117464
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

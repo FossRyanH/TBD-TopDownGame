@@ -156,7 +156,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      all baby cow animations_0: -697401950361637226
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -30,7 +30,7 @@ public class StateMachine
     {
         if (CurrentState != null)
         {
-            CurrentState.UpdateState(Time.deltaTime);
+            CurrentState.UpdateState(Time.fixedDeltaTime);
         }
     }
 }

@@ -300,7 +300,14 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      door animation sprites_0: 4571388408615540631
+      door animation sprites_1: -4707957109989665839
+      door animation sprites_2: -150390041029370837
+      door animation sprites_3: 2045690242105476198
+      door animation sprites_4: -6715798680015711353
+      door animation sprites_5: -4092951896790114336
+      door animation sprites_6: 3521495425016749490
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

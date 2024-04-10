@@ -324,7 +324,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Darker_Grass_Tile_Layers_0: -617613657102714572
+      Darker_Grass_Tile_Layers_1: 6865494060881061864
+      Darker_Grass_Tile_Layers_2: 7407312014623239516
+      Darker_Grass_Tile_Layers_3: -9207955352420202366
+      Darker_Grass_Tile_Layers_4: 6291951814116945678
+      Darker_Grass_Tile_Layers_5: 261580252905805022
+      Darker_Grass_Tile_Layers_6: -5715717490754608575
+      Darker_Grass_Tile_Layers_7: -9122545266173472112
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

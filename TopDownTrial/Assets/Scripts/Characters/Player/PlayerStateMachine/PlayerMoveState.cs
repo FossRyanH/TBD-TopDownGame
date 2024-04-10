@@ -6,12 +6,8 @@ using UnityEngine.PlayerLoop;
 public class PlayerMoveState : PlayerBaseState
 {
     #region Animation Variables
-    readonly int _locomotionHash = Animator.StringToHash("LocomotionTree");
-    readonly int _sprintingHash = Animator.StringToHash("SprintTree");
-    readonly int _yMovement = Animator.StringToHash("YMovement");
-    readonly int _xMovement = Animator.StringToHash("XMovement");
+    readonly int _moveHash = Animator.StringToHash("LocomotionTree");
     #endregion
-
     public PlayerMoveState(PlayerController player) : base(player)
     {
         this._player = player;
@@ -19,12 +15,18 @@ public class PlayerMoveState : PlayerBaseState
 
     public override void EnterState()
     {
-        _player.Animator.Play(_locomotionHash);
+        _player.Animator.Play(_moveHash);
+        _player.MoveSpeed = _player.WalkSpeed;
+        _player.SprintEvent += HandleRun;
     }
 
     public override void UpdateState(float delta)
     {
-        Move(_player.MovementInput * _player.MoveSpeed, delta);
+        Vector2 inputDir = new Vector2();
+        inputDir = _player.MovementInput;
+        inputDir = inputDir.normalized;
+
+        Move(inputDir * _player.MoveSpeed, delta);
 
         UpdateAnimations();
 
@@ -35,29 +37,13 @@ public class PlayerMoveState : PlayerBaseState
         }
     }
 
-    // Update Animations as the player moves
-    // TODO: Add speed updates later.
-    void UpdateAnimations()
+    public override void ExitState()
     {
-        // Set the anim tree and speed.
-        if (_player.IsRunning)
-        {
-            _player.MoveSpeed = _player.RunSpeed;
-            _player.Animator.Play(_sprintingHash);
-        }
-        else
-        {
-            _player.MoveSpeed = _player.WalkSpeed;
-            _player.Animator.Play(_locomotionHash);
-        }
-        // Set player facing direction
-        if (Mathf.Abs(_player.MovementInput.y) > 0.1f)
-        {
-            _player.Animator.SetFloat(_yMovement, _player.MovementInput.y);
-        }
-        else if (Mathf.Abs(_player.MovementInput.x) > 0.1f)
-        {
-            _player.Animator.SetFloat(_xMovement, _player.MovementInput.x);
-        }
+        _player.SprintEvent -= HandleRun;
+    }
+
+    void HandleRun()
+    {
+        _player.StateMachine.ChangeState(new PlayerSprintState(_player));
     }
 }

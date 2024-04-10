@@ -252,7 +252,12 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      fruit and berries items_0: -658478171088490457
+      fruit and berries items_1: 3890171555231783473
+      fruit and berries items_2: -7542103567537258657
+      fruit and berries items_3: 851350370260654520
+      fruit and berries items_4: 2698903881720168938
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
